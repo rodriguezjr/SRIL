@@ -1,4 +1,4 @@
-# **SaberMas - Sistema Inteligente de Recomendación de Libros**
+# **SaberMas - Sistema de Recomendacion Inteligente de Lectura**
 
 <div align="center">
 
