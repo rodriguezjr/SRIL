@@ -1,0 +1,16 @@
+# 1. Crear entorno virtual (recomendado)
+python -m venv venv
+venv\Scripts\activate
+
+# 2. Instalar dependencias
+pip install -r requirements.txt
+
+# 3. Configurar la base de datos
+python manage.py makemigrations
+python manage.py migrate
+
+# 4. Crear superusuario
+python manage.py createsuperuser
+
+# 5. Ejecutar el servidor
+python manage.py runserver
